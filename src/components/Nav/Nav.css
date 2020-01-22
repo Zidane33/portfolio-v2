@@ -1,0 +1,42 @@
+.nav {
+    z-index: 1100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 5rem;
+}
+
+.logo {
+    position: absolute;
+    left: calc(100vw / 12);
+    top: 0;
+    width: 5rem;
+}
+
+
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+}
+
+.link-list {
+    position: absolute;
+    right: calc(100vw / 12);
+    height: 7rem;
+    display: flex;
+    color: rgb(251, 251, 251);
+    list-style: none;
+}
+
+.link-item {
+    margin: 20px;
+}
+
+.bar {
+    position: absolute;
+    background-color: blue;
+    top: 6.8rem;
+    right: 0;
+    height: 0.2rem;
+}

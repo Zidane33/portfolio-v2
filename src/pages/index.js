@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "../components/Home/Home";
-// import Nav from '../components/Nav/Nav'
+import Nav from '../components/Nav/Nav'
 
 const bodyStyle = {
   display: 'grid',
@@ -12,7 +12,7 @@ const bodyStyle = {
 const Index = () => {
   return (
     <div style={bodyStyle}>
-      {/* <Nav /> */}
+      <Nav />
       <Home />
     </div>
   );
