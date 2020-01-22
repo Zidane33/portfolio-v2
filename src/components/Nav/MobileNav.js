@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { FaGithub, FaLinkedinIn, FaBars, FaTimes } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaBars } from "react-icons/fa";
 import logo from './logo.png'
 import './mobile.css'
 
@@ -33,7 +33,7 @@ class MobileNav extends React.Component {
                 </Link>
                 <FaBars style={{color: 'rgb(251, 251, 251)', marginLeft:'90%', marginTop:'5%', cursor: 'pointer'}} onClick={this.toggleMenu}/>
                 <ul
-                className="link-list"
+                className="responsive-list"
                 style={{opacity: this.state.toggle ? '100': '0', zIndex: this.state.toggle ? '-10': 10}}
                 >
                     {this.state.navArray.map((item, key) => (

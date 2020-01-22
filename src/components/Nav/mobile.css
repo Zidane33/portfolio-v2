@@ -1,4 +1,4 @@
-.link-list {
+.responsive-list {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -8,6 +8,12 @@
     border: white 1px solid;
     width: 50%;
     transition: all 0.2s linear;
+
+    position: absolute;
+    right: calc(100vw / 12);
+    display: flex;
+    color: rgb(251, 251, 251);
+    list-style: none;
 }
 
 .link-item {

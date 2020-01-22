@@ -1,4 +1,5 @@
 import React from "react";
+import MediaQuery from 'react-responsive';
 import Home from "../components/Home/Home";
 import Nav from '../components/Nav/Nav';
 import MobileNav from '../components/Nav/MobileNav';
@@ -13,7 +14,12 @@ const globalStyle = {
 const Index = () => {
   return (
     <div style={globalStyle}>
-      <MobileNav />
+      <MediaQuery minWidth={1000}>
+        <Nav />
+      </MediaQuery>
+      <MediaQuery maxWidth={999}>
+        <MobileNav />
+      </MediaQuery>
       <Home />
     </div>
   );
