@@ -1,8 +1,9 @@
 import React from "react";
 import Home from "../components/Home/Home";
-import Nav from '../components/Nav/Nav'
+import Nav from '../components/Nav/Nav';
+import MobileNav from '../components/Nav/MobileNav';
 
-const bodyStyle = {
+const globalStyle = {
   display: 'grid',
   gridTemplateColumns: 'repeat(12, 1fr)',
   background: 'rgb(34, 34, 34)',
@@ -11,8 +12,8 @@ const bodyStyle = {
 
 const Index = () => {
   return (
-    <div style={bodyStyle}>
-      <Nav />
+    <div style={globalStyle}>
+      <MobileNav />
       <Home />
     </div>
   );

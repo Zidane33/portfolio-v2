@@ -1,0 +1,16 @@
+.link-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: rgb(34, 34, 34);
+    z-index: -100;
+    height: auto;
+    border: white 1px solid;
+    width: 50%;
+    transition: all 0.2s linear;
+}
+
+.link-item {
+    height: 1rem;
+    display: inline-block;
+}

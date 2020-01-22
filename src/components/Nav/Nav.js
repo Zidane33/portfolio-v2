@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "gatsby";
-import { FaGithub, FaLinkedinIn, FaBars, FaTimes } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import logo from './logo.png';
 import './Nav.css';
 
