@@ -5,7 +5,7 @@ import Project from "../components/Project/Project";
 import Layout from '../components/layout'
 
 const style={
-  gridColumn: '4/9',
+  gridColumn: '4/10',
   marginTop: '20vh',
 };
 
@@ -34,6 +34,7 @@ const Projects = () => {
       img: (<Img fluid={allFile.edges[1].node.childImageSharp.fluid}/>),
       code: 'https://github.com/Zidane33/BookWorm-backend',
       live: '',
+      tech: ['Flask', 'PostgresSQL', 'Jinja2', 'HTML', 'CSS', 'REST api'],
     }, 
     {
       name: 'GSA Carleton',
@@ -41,6 +42,7 @@ const Projects = () => {
       img: (<Img fluid={allFile.edges[4].node.childImageSharp.fluid}/>),
       code: '',
       live: '',
+      tech: ['Headless Wordpress', 'REST api', 'GraphQL', 'Gatsbyjs', 'React'],
     }, 
     {
       name:'Shopify-Art-Store',
@@ -48,13 +50,15 @@ const Projects = () => {
       img:(<Img fluid={allFile.edges[2].node.childImageSharp.fluid}/>),
       code: 'https://github.com/Zidane33/shopify-art-store',
       live: '',  
+      tech: ['React', 'Gatsbyjs', 'Shopify', 'GraphQL'],
     }, 
     {
     name:'Grad Portfolio',
-    description: `A fully deployed freelance project. It's graduate student portfolio built using React.`,
+    description: `A fully deployed freelance project. It's graduate student portfolio built using Create-React-App. Hosted on Firebase with a custom domain name.`,
     img: (<Img fluid={allFile.edges[3].node.childImageSharp.fluid}/>),
     code: 'https://github.com/Zidane33/grad-portfolios',
     live: '',
+    tech: ['Create-React-App','React', 'CSS', 'JSX'],
   },
   ]
   

@@ -1,5 +1,6 @@
 import React from 'react';
 import Arrow from '../assets/arrow.svg';
+import Tech from './Tech';
 
 
 
@@ -18,6 +19,7 @@ const Project = (props) => {
         <a className="links" href={props.project.live}>Visit Live Link
             <Arrow className="arrow" height='1em' width='1em'></Arrow>
         </a>
+        <Tech tech={props.project.tech} />
         <hr style={{width: '100%'}} />
     </div>
     )
