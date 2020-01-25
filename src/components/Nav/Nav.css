@@ -26,6 +26,7 @@ a, a:link, a:visited, a:hover, a:active {
     height: 7rem;
     display: flex;
     color: rgb(251, 251, 251);
+    font-weight: 1000;
     list-style: none;
 }
 

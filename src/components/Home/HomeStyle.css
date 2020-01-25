@@ -12,9 +12,14 @@
 .image-wrapper {
     position: absolute;
     bottom: 0;
-    right: 0;
-    width: 10%;
-    padding-top: 50%;
+    right: 15em;
+    width: 25%;
+}
+
+@media screen and (max-width: 900px){
+    .image-wrapper{
+        display: none;
+    }
 }
 
 .text-wrapper {
