@@ -4,3 +4,7 @@ body {
     width: 100vw;
     background: rgb(34, 34, 34);
 }
+
+label {
+    margin: 1em 0px 1em 0px;
+}
