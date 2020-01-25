@@ -1,15 +1,24 @@
 import React from 'react';
+import Arrow from '../assets/arrow.svg';
+
 
 
 const Project = (props) => {
     return (
-    <div>
-        <h2>{props.project.name}</h2>
-        <img src={props.project.img} />
-        <p>{props.project.description}</p>
-        <a href={props.project.code}>View Code on Github</a><br />
-        <a href={props.project.live}>Visit Live Link</a>
-        <hr />
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+        <h2 style={{alignSelf: 'start'}}>{props.project.name}</h2>
+        <div style={{width: '25vh'}}>
+            {props.project.img}
+        </div> 
+        <p style={{margin: '1em'}}>{props.project.description}</p>
+        <a className="links" href={props.project.code}>View Code on Github
+            <Arrow className="arrow" height='1em' width='1em'></Arrow>
+        </a>
+        <br />
+        <a className="links" href={props.project.live}>Visit Live Link
+            <Arrow className="arrow" height='1em' width='1em'></Arrow>
+        </a>
+        <hr style={{width: '100%'}} />
     </div>
     )
 }
