@@ -41,7 +41,6 @@ const Nav = () => {
                     </Link>
                 </li>
             </ul>
-            <span className="bar"></span>
         </nav>
     );
 };
