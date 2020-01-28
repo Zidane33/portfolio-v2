@@ -33,7 +33,7 @@ const Projects = () => {
       description: `A full stack solution for graduate students to keep track of books used in their research. Using the Google books API, Flask for the server and PostgresSQL for the database, it's a super lightweight server rendered app. I plan on building a React app for the front end to replace the Jinja2 template front end`,
       img: (<Img fluid={allFile.edges[1].node.childImageSharp.fluid}/>),
       code: 'https://github.com/Zidane33/BookWorm-backend',
-      live: '',
+      live: 'https://book-w-orm.herokuapp.com/',
       tech: ['Flask', 'PostgresSQL', 'Jinja2', 'HTML', 'CSS', 'REST api'],
     }, 
     {
@@ -57,7 +57,7 @@ const Projects = () => {
     description: `A fully deployed freelance project. It's graduate student portfolio built using Create-React-App. Hosted on Firebase with a custom domain name.`,
     img: (<Img fluid={allFile.edges[3].node.childImageSharp.fluid}/>),
     code: 'https://github.com/Zidane33/grad-portfolios',
-    live: '',
+    live: 'https://jay-ramasubramanyam.com/',
     tech: ['Create-React-App','React', 'CSS', 'JSX'],
   },
   ]
