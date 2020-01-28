@@ -23,7 +23,7 @@ const Nav = () => {
                     key={key}
                     className="link-item"
                 >
-                    <Link to={`/${item.toLowerCase()}`}>
+                    <Link to={`/${item.toLowerCase()}`} activeClassName="bar">
                         {item}
                     </Link>
                 </li>
