@@ -30,15 +30,15 @@ const Nav = () => {
                 ))}
                 <li
                 className="link-item">
-                    <Link to="https://github.com/Zidane33">
+                    <a href="https://github.com/Zidane33">
                         <FaGithub style={{color: 'rgb(251, 251, 251)'}}/>
-                    </Link>
+                    </a>
                 </li>
                 <li
                 className="link-item">
-                    <Link to="https://www.linkedin.com/in/zidane-mohamed-15002795/">
+                    <a href="https://www.linkedin.com/in/zidane-mohamed-15002795/">
                         <FaLinkedinIn style={{color: 'rgb(251, 251, 251)'}}/>
-                    </Link>
+                    </a>
                 </li>
             </ul>
         </nav>
